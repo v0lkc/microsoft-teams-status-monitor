@@ -3,7 +3,7 @@ name = "microsoft-teams-status-monitor"
 version = "0.1.0"
 authors = ["Christian Volk <christian.volk@sap.com>"]
 edition = "2021"
-license = "MIT OR Apache-2.0"
+license = "Apache-2.0"
 
 [dependencies]
 esp-backtrace = { version = "0.14.2", features = [
