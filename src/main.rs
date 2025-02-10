@@ -7,6 +7,7 @@ use esp_hal::{delay::Delay, prelude::*};
 extern crate alloc;
 use core::mem::MaybeUninit;
 
+#[allow(static_mut_refs)]
 fn init_heap() {
     const HEAP_SIZE: usize = 32 * 1024;
     static mut HEAP: MaybeUninit<[u8; HEAP_SIZE]> = MaybeUninit::uninit();
