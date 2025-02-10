@@ -8,3 +8,4 @@
 | Battery 800mAh 403535                   | 1        | Round battery for smartwatches.                                                       | 
 | JST 1.25mm 2 Pin Female Connector       | 1        | Pitch 1.25mm, 2 pin terminal connector with wire cable.                               |
 | SH 1.0mm 4 Pin Female Connector         | 1        | Pitch 1.0mm, 4 pin terminal connector with wire cable.                                |
+| WS2812B Smart LED Strip                 | 1m       | 30 LED/m, IP30
