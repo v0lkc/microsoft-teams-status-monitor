@@ -1,14 +1,8 @@
 {
   "name": "microsoft_teams_status_monitor",
-  // Select between image and build properties to pull or build the image.
-  // "image": "docker.io/espressif/idf-rust:esp32c3_latest",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "CONTAINER_USER": "esp",
-      "CONTAINER_GROUP": "esp",
-      "ESP_BOARD": "esp32c3"
-    }
+  "image": "docker.io/espressif/idf-rust:esp32c3_1.84.0.0",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/lefthook-asdf:1.0.2": {}
   },
   "customizations": {
     "vscode": {
