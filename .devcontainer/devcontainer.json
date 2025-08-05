@@ -1,6 +1,6 @@
 {
   "name": "microsoft_teams_status_monitor",
-  "image": "docker.io/espressif/idf-rust:esp32c3_1.84.0.0",
+  "image": "docker.io/espressif/idf-rust:esp32c3_1.88.0.0",
   "features": {
     "ghcr.io/devcontainers-extra/features/lefthook-asdf:1.0.2": {}
   },
